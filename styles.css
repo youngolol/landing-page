@@ -57,6 +57,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-right: 50px;
 
 }
 
@@ -70,6 +71,22 @@ a {
 
 .banner {
     font-size: 48px;
+    font-weight: bold; 
+}
+
+button {
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.intro { 
+    margin-bottom: 15px;
 }
 
 
