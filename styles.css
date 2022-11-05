@@ -25,6 +25,7 @@ a {
 
 .masterheader {
     background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -36,6 +37,8 @@ a {
     padding-right: 200px;
     padding-bottom: 50px;
     padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .headerleft, .headerright {
@@ -73,7 +76,8 @@ a {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
-
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .banner {
@@ -100,6 +104,7 @@ button {
     width: 200px;
     height: 200px;
     border-radius: 15px;
+    border: 5px solid #3882F6;
 }
 
 .image_container {
@@ -111,7 +116,7 @@ button {
 
 .secondtitle {
     font-size: 36px;
-    font-weight: bold;s
+    font-weight: bold;
     color: black;
     margin-bottom: 32px;
 }
@@ -122,5 +127,88 @@ button {
     margin-top: 50px;
 }
 
+.body3 {
+    background-color: #E5E7EB;
+    margin-top: 50px;
+}
+
+p {
+    position: relative; 
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 70%;
+    margin: 1rem auto 2rem;
+    color: #484748;
+}
 
 
+.quotebox {
+    color:#1F2937;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 1.25em;
+    font-weight: 100;
+    background: #E5E7EB;
+    padding: 60px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.author {
+    font-size: 75%; 
+    text-align: right;
+    top: 50%;
+}
+
+.body4 {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbox2 {
+    background: #3882F6;
+    color: white;
+    width: 1500px;
+    height: 100px;
+    padding: 25px;
+    padding-top:40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.finaltitle {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.left, .right {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
